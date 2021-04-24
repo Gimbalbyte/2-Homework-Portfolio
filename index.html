@@ -3,85 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio</title>
 </head>
 
 <body>
-    <nav>
-        <h1>
-            ETHAN
-        </h1>
-        <ul>
-            <li> About Me </li>
-            <li> Work </li>
-            <li> Contact Me </li>
-            <li> Resume </li>
-        </ul>
-    </nav>
-    
     <header class="header">
+        <h1>Ethan</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="subtitle">
         <h1>
             The Book of Ethan
         </h1>
-    </header>
+    </section>
     
     <section class="about">
-        <h2>
+        <h2 class="header">
             About Me
         </h2>
         
-        <p>
+        <p class="bio-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi morbi tempus iaculis. Aliquet nec ullamcorper sit amet risus nullam eget. Pretium viverra suspendisse potenti nullam ac. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Suspendisse sed nisi lacus sed viverra tellus in hac habitasse. Proin libero nunc consequat interdum varius sit amet. Sagittis nisl rhoncus mattis rhoncus.
         </p>
         
-        <p>    
+        <p class="bio-body">    
             Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Mauris cursus mattis molestie a iaculis at. Arcu non odio euismod lacinia at. Augue ut lectus arcu bibendum. Tellus rutrum tellus pellentesque eu. Non consectetur a erat nam at lectus urna duis convallis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Morbi tincidunt augue interdum velit euismod in pellentesque massa.
         </p>
     </section>
 
     <section>
-        <article>
-            <figure>
-                <h3>Surf Report</h3>
-                <div>
+        <article class="column-row">
+            <figure class="card">
+                <h3 class="card-header">Surf Report</h3>
+                <div class="card-body">
                     <p>Mern Stack</p>
                 </div>
             </figure>
         </article>
 
-        <article>
-            <figure>
-                <h3>LED Wall</h3>
-                <div>
+        <article class="column-row">
+            <figure class="card">
+                <h3 class="card-header">LED Wall</h3>
+                <div class="card-body">
                     <p>Node/IoT</p>
                 </div>
             </figure>
         </article>
 
-        <article>
-            <figure>
-                <h3>Calculator</h3>
-                <div>
+        <article class="column-row">
+            <figure class="card">
+                <h3 class="card-header">Calculator</h3>
+                <div class="card-body">
                     <p>React/JavaScript/CSS</p>
                 </div>
             </figure>
         </article>
 
-        <article>
-            <figure>
-                <h3>Pastel Puzzels</h3>
-                <div>
+        <article class="column-row">
+            <figure class="card">
+                <h3 class="card-header">Pastel Puzzels</h3>
+                <div class="card-body">
                     <p>Mern Stack</p>
                 </div>
             </figure>
         </article>
 
-        <article>
-            <figure>
-                <h3>Run Buddy</h3>
-                <div>
+        <article class="column-row">
+            <figure class="card">
+                <h3 class="card-header">Run Buddy</h3>
+                <div class="card-body">
                     <p>HTML/CSS</p>
                 </div>
             </figure>
@@ -89,10 +96,10 @@
     </section>
 
     <footer>
-        <h2>
+        <h2 class="footer-header">
             Contact Me
         </h2>
-        <ul>
+        <ul class="buttons">
             <li>555.555.5555</li>
             <li>student@website.com</li>
             <li>GitHub</li>
@@ -100,7 +107,6 @@
             <li>Spotify</li>
         </ul>
     </footer>
-
 
 </body>
 
